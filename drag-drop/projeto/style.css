@@ -1,0 +1,81 @@
+/* Estilizando o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilizando o cabeçalho (h1) */
+h1 {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Estilizando as colunas */
+.coluna {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    float: left;
+    width: calc(50% - 20px); /* Distribuir igualmente em 2 colunas */
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.coluna:hover {
+    transform: translateY(-5px);
+}
+
+/* Estilizando as listas de tarefas */
+.tarefas {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tarefas li {
+    padding: 8px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 6px;
+}
+
+
+input[type="text"] {
+    width: 100px;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #313131;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #73767a;
+    transform: scale(1.05);
+}
+
+/* Estilizando o formulário */
+#adicionar-tarefa {
+    margin: 20px;
+    text-align: center;
+}
